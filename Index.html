@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+		<style>
+			a{
+				text-decoration:none;
+			}
+			a#first:link{
+				color:pink;
+				background-color:white;
+			}
+			a#first:visited{
+				color:hotpink;
+				background-color:pink;
+			}
+			a#first:hover{
+				color:red;
+				background-color:hotpink;
+			}
+			a#first:active{
+				color:white;
+				background-color:hotpink;
+			}
+		
+			a#second:link{
+				color:cyan;
+				text-decoration:none;
+				background-color:aquamarine;
+			}
+			a#second:visited{
+				color:darkblue;
+				background-color:blue;
+			}
+			a#second:hover{
+				color:blue;
+				background-color:cyan;
+			}	
+			
+			a#second:active{
+				color:Cyan;
+				background-color:blue;
+			}
+		
+			div{
+			margin:5px;
+			display:inline-block;
+			border: 3px solid black;
+			background-color:grey;
+			
+			}
+			#lezgo:target{
+				color:red;
+				border:3px solid red;
+				background-color:pink;
+			}
+			#lezgaur:target{
+				border: 3px dashed darkblue;
+				background-color:aquamarine;
+				color: darkblue;
+			}
+		</style>
+	<head>
+		<title>CS FA 1</title>
+		<meta charset+"UTP-8">
+		<meta name="author"
+content="Yumi Alessandra F. Angchangco">
+		<meta name="keyboards"
+content="div,anchor,externalcss">
+		<meta name= "revised"
+content="17/11/2023">
+		<link href="style.css">
+	</head>
+		<body>
+			<a id="first" href="#lezgo" >First Link</a>
+			<a id="second" href="#lezgaur" >Second Link</a><br>
+			<br>
+			<div id="lezgo">Div 1 here</div><br>
+			<div id="lezgaur">Div 2 here</div>
+		</body>
+</html>
